@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.Odd{
+    background-color: rgb(236, 9, 9);
+    font-family: verdana, Dejavu sans, sans-serif;
+}
+.Odd.additional-styling{
+    font-size: 24px;
+}
+#Special{
+    color: rgb(33, 23, 175);
+    font-size: 36px;
+}
+#Another{
+    background-color: rgb(0, 255, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
