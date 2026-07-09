@@ -7,7 +7,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 100px 50px 1000px 100px;
   gap: 5px;
 }
 
@@ -44,6 +43,9 @@
 .sidebar {
   background-color: #C50208;
   grid-row: 2/4;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 60px;
 }
 
 .sidebar .photo {
@@ -52,6 +54,8 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+  place-items: center;
 }
 
 
@@ -60,6 +64,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  place-items: center;
 }
 
 .nav {
